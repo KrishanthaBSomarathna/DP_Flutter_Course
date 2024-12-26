@@ -5,7 +5,7 @@ void main() {
   runApp(
     DevicePreview(
       enabled: true, // Enable Device Preview
-      builder: (context) => MyApp(), // Wrap your app
+      builder: (context) => const MyApp(), // Wrap your app
     ),
   );
 }
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.black,
         appBar: AppBar(
-          backgroundColor: Color(0xffFFE500),
+          backgroundColor: const Color(0xffFFE500),
         ),
         body: SingleChildScrollView(
           
@@ -40,7 +40,7 @@ class MyApp extends StatelessWidget {
                       height: 175.0,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10.0),
-                        color: Color(0xff06FFA5),
+                        color: const Color(0xff06FFA5),
                       ),
                     ),
                     SizedBox(
@@ -53,7 +53,7 @@ class MyApp extends StatelessWidget {
                             height: 80.0,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(10.0),
-                              color: Color(0xff06FFA5),
+                              color: const Color(0xff06FFA5),
                             ),
                           ),
                           Container(
@@ -61,7 +61,7 @@ class MyApp extends StatelessWidget {
                             height: 80.0,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(10.0),
-                              color: Color(0xffFFE500),
+                              color: const Color(0xffFFE500),
                             ),
                           ),
                         ],
@@ -69,7 +69,7 @@ class MyApp extends StatelessWidget {
                     ),
                   ],
                 ),
-                SizedBox(height: 20.0),
+                const SizedBox(height: 20.0),
 
                 // Second Section
                 Column(
@@ -79,21 +79,21 @@ class MyApp extends StatelessWidget {
                       height: 80.0,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10.0),
-                        color: Color(0xffCC00FF),
+                        color: const Color(0xffCC00FF),
                       ),
                     ),
-                    SizedBox(height: 10.0),
+                    const SizedBox(height: 10.0),
                     Container(
                       width: double.infinity,
                       height: 80.0,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10.0),
-                        color: Color(0xff06FFA5),
+                        color: const Color(0xff06FFA5),
                       ),
                     ),
                   ],
                 ),
-                SizedBox(height: 20.0),
+                const SizedBox(height: 20.0),
 
                 // Third Row
                 Row(
@@ -104,7 +104,7 @@ class MyApp extends StatelessWidget {
                       height: 300.0,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(10.0),
-                        color: Color(0xffFFE500),
+                        color: const Color(0xffFFE500),
                       ),
                     ),
                     SizedBox(
@@ -117,7 +117,7 @@ class MyApp extends StatelessWidget {
                             height: 50.0,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(10.0),
-                              color: Color(0xff7752FE),
+                              color: const Color(0xff7752FE),
                             ),
                           ),
                           Container(
@@ -125,7 +125,7 @@ class MyApp extends StatelessWidget {
                             height: 100.0,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(10.0),
-                              color: Color(0xffFF9900),
+                              color: const Color(0xffFF9900),
                             ),
                           ),
                           Container(
@@ -133,7 +133,7 @@ class MyApp extends StatelessWidget {
                             height: 75.0,
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(10.0),
-                              color: Color(0xff7752FE),
+                              color: const Color(0xff7752FE),
                             ),
                           ),
                         ],
@@ -141,7 +141,7 @@ class MyApp extends StatelessWidget {
                     ),
                   ],
                 ),
-                SizedBox(height: 20.0),
+                const SizedBox(height: 20.0),
 
                 // Circular Containers Row
                 Row(
@@ -152,7 +152,7 @@ class MyApp extends StatelessWidget {
                       height: 75.0,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(100.0),
-                        color: Color(0xffCC00FF),
+                        color: const Color(0xffCC00FF),
                       ),
                     ),
                     Container(
@@ -160,7 +160,7 @@ class MyApp extends StatelessWidget {
                       height: 75.0,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(100.0),
-                        color: Color(0xffFFE500),
+                        color: const Color(0xffFFE500),
                       ),
                     ),
                     Container(
@@ -168,7 +168,7 @@ class MyApp extends StatelessWidget {
                       height: 75.0,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(100.0),
-                        color: Color(0xff06FFA5),
+                        color: const Color(0xff06FFA5),
                       ),
                     ),
                     Container(
@@ -176,7 +176,7 @@ class MyApp extends StatelessWidget {
                       height: 75.0,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(100.0),
-                        color: Color(0xff9E00FF),
+                        color: const Color(0xff9E00FF),
                       ),
                     ),
                   ],
